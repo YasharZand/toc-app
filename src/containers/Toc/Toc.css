@@ -1,0 +1,24 @@
+.Comments {
+    display: flex;
+    border: 1px solid #eee;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 16px auto;
+}
+
+.Filter {
+    display: flex;
+    border: 1px solid #eee;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 16px auto;
+}
+
+.Filter input[type=text] {
+        width: 50%;
+        /* padding: 15px 22px; */
+        /* margin: 10px 5px; */
+        /* box-sizing: border-box;   */
+    }

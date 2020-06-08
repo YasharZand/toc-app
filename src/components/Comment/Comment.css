@@ -1,0 +1,32 @@
+.Comment {
+    width: 90%;
+    margin: 5px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Comment>div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    width: 30%;
+    flex: 0 1 30%;
+}
+
+.Comment>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    width: 70%;
+    flex: 0 1 70%;
+}
+
+.Comment:hover,
+.Comment:active {
+    background-color: #C0DDF5;
+}
