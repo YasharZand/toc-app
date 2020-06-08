@@ -29,7 +29,6 @@ class Toc extends Component {
             .catch(error => {
                 this.setState({ error: true });
             });
-
     }
 
     componentWillUnmount() {
@@ -68,6 +67,8 @@ class Toc extends Component {
         }
         return (
             <div>
+                <section>
+                </section>
                 <section>
                     <div className="Filter">
                         <label>Comment Filter:</label>
